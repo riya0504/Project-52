@@ -1,0 +1,56 @@
+H1{
+    COLOR : #ffffff;
+    text-align:center;
+    padding:20px;
+}
+
+.header{
+    background-color:#3c503d;
+    display:flex;
+    justify-content: space-between;
+} 
+.grid{
+    display:box;
+    justify-content: center;
+    margin:50 px;
+    flex-wrap:wrap;
+    background-color:#84bbb5
+    
+}
+
+body{
+    margin:0px;
+    background-color:#2d3836
+}
+.footer{
+    display:box;
+    justify-content: flex-start;
+}
+H2{
+    COLOR : rgba(43, 61, 63, 0.733);
+    text-align:center;
+}
+a:link{
+    color:white;
+}
+a:visited{
+    color:powderblue;
+}
+.origami:hover{
+    transform:scale(1.1);
+}
+.item origami{ 
+    color:yellowgreen;
+    position :  absolute;
+} 
+.text{
+    color:rgb(69, 75, 59);
+    position: absolute;
+    top:50%;
+    left:50%;
+    transform:translate(-50%,-50%);
+    opacity:0;
+}
+.text:hover{
+    opacity:1;
+}
